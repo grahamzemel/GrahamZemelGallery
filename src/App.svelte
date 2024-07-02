@@ -52,7 +52,6 @@
 	}
 
 	onMount(() => {
-		console.log("Mounted app")
 		state.set([{ id: 0, component: Home }]);
 	});
 

@@ -36,7 +36,7 @@ Macy({
 	});
 </script>
 
-
+<p>HOME</p>
 <div id="images">
 <a
 	href="https://photographyhobby.s3.us-east-2.amazonaws.com/pinkHydrangea_1-500_10.JPG"
