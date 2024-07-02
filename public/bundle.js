@@ -1189,18 +1189,6 @@ var app = (function () {
 	}
 
 	/**
-	 * @param {Text} text
-	 * @param {unknown} data
-	 * @returns {void}
-	 */
-	function set_data_dev(text, data) {
-		data = '' + data;
-		if (text.data === data) return;
-		dispatch_dev('SvelteDOMSetData', { node: text, data });
-		text.data = /** @type {string} */ (data);
-	}
-
-	/**
 	 * @returns {void} */
 	function validate_slots(name, slot, keys) {
 		for (const slot_key of Object.keys(slot)) {
@@ -4385,67 +4373,72 @@ var app = (function () {
 				if (!src_url_equal(img0.src, img0_src_value = "https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_pinkHydrangea_1-500_10.JPG")) attr_dev(img0, "src", img0_src_value);
 				attr_dev(img0, "alt", "Picture of a pink hydrangea");
 				attr_dev(img0, "class", "svelte-1dmgfw2");
-				add_location(img0, file$5, 47, 1, 1052);
+				add_location(img0, file$5, 48, 1, 1085);
 				attr_dev(a0, "href", "https://photographyhobby.s3.us-east-2.amazonaws.com/pinkHydrangea_1-500_10.JPG");
 				attr_dev(a0, "data-img", "https://photographyhobby.s3.us-east-2.amazonaws.com/pinkHydrangea_1-500_10.JPG");
 				attr_dev(a0, "data-thumb", "https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_pinkHydrangea_1-500_10.JPG");
 				attr_dev(a0, "data-height", "3456");
 				attr_dev(a0, "data-width", "5184");
 				attr_dev(a0, "data-alt", "Picture of a pink hydrangea");
+				attr_dev(a0, "data-caption", "A pink hydrangea");
 				attr_dev(a0, "class", "svelte-1dmgfw2");
 				add_location(a0, file$5, 39, 0, 686);
 				if (!src_url_equal(img1.src, img1_src_value = "https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_tinyFlowers_1-125_7.1.JPG")) attr_dev(img1, "src", img1_src_value);
 				attr_dev(img1, "alt", "Picture of some tiny flowers");
 				attr_dev(img1, "class", "svelte-1dmgfw2");
-				add_location(img1, file$5, 60, 1, 1561);
+				add_location(img1, file$5, 62, 1, 1628);
 				attr_dev(a1, "href", "https://photographyhobby.s3.us-east-2.amazonaws.com/tinyFlowers_1-125_7.1.JPG");
 				attr_dev(a1, "data-img", "https://photographyhobby.s3.us-east-2.amazonaws.com/tinyFlowers_1-125_7.1.JPG");
 				attr_dev(a1, "data-thumb", "https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_tinyFlowers_1-125_7.1.JPG");
 				attr_dev(a1, "data-height", "3456");
 				attr_dev(a1, "data-width", "5184");
 				attr_dev(a1, "data-alt", "Picture of some tiny flowers");
+				attr_dev(a1, "data-caption", "Some tiny flowers");
 				attr_dev(a1, "class", "svelte-1dmgfw2");
-				add_location(a1, file$5, 52, 0, 1197);
+				add_location(a1, file$5, 53, 0, 1230);
 				if (!src_url_equal(img2.src, img2_src_value = "https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_gooddog.JPG")) attr_dev(img2, "src", img2_src_value);
 				attr_dev(img2, "alt", "Picture of a dawg");
 				attr_dev(img2, "class", "svelte-1dmgfw2");
-				add_location(img2, file$5, 73, 1, 2017);
+				add_location(img2, file$5, 76, 1, 2131);
 				attr_dev(a2, "href", "https://photographyhobby.s3.us-east-2.amazonaws.com/gooddog.JPG");
 				attr_dev(a2, "data-img", "https://photographyhobby.s3.us-east-2.amazonaws.com/gooddog.JPG");
 				attr_dev(a2, "data-thumb", "https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_gooddog.JPG");
 				attr_dev(a2, "data-height", "3456");
 				attr_dev(a2, "data-width", "5184");
 				attr_dev(a2, "data-alt", "Picture of a dawg");
+				attr_dev(a2, "data-caption", "A picture of a tibetan terrier");
 				attr_dev(a2, "class", "svelte-1dmgfw2");
-				add_location(a2, file$5, 65, 0, 1706);
+				add_location(a2, file$5, 67, 0, 1773);
 				if (!src_url_equal(img3.src, img3_src_value = "https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_bees_1-80_5.6.JPG")) attr_dev(img3, "src", img3_src_value);
 				attr_dev(img3, "alt", "Picture of buzzing bees");
 				attr_dev(img3, "class", "svelte-1dmgfw2");
-				add_location(img3, file$5, 86, 1, 2472);
+				add_location(img3, file$5, 90, 1, 2633);
 				attr_dev(a3, "href", "https://photographyhobby.s3.us-east-2.amazonaws.com/bees_1-80_5.6.JPG");
 				attr_dev(a3, "data-img", "https://photographyhobby.s3.us-east-2.amazonaws.com/bees_1-80_5.6.JPG");
 				attr_dev(a3, "data-thumb", "https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_bees_1-80_5.6.JPG");
 				attr_dev(a3, "data-height", "3456");
 				attr_dev(a3, "data-width", "5184");
 				attr_dev(a3, "data-alt", "Picture of buzzing bees");
+				attr_dev(a3, "data-caption", "A picture of bees and lavendar");
 				attr_dev(a3, "class", "svelte-1dmgfw2");
-				add_location(a3, file$5, 78, 0, 2137);
+				add_location(a3, file$5, 81, 0, 2251);
 				if (!src_url_equal(img4.src, img4_src_value = "https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_arf.JPG")) attr_dev(img4, "src", img4_src_value);
 				attr_dev(img4, "alt", "Picture of a dawg");
 				attr_dev(img4, "class", "svelte-1dmgfw2");
-				add_location(img4, file$5, 99, 1, 2903);
+				add_location(img4, file$5, 104, 1, 3117);
 				attr_dev(a4, "href", "https://photographyhobby.s3.us-east-2.amazonaws.com/arf.JPG");
 				attr_dev(a4, "data-img", "https://photographyhobby.s3.us-east-2.amazonaws.com/arf.JPG");
 				attr_dev(a4, "data-thumb", "https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_arf.JPG");
 				attr_dev(a4, "data-height", "3456");
 				attr_dev(a4, "data-width", "5184");
 				attr_dev(a4, "data-alt", "Picture of a dawg");
+				attr_dev(a4, "data-caption", "Another picture of a tibetan terrier");
 				attr_dev(a4, "class", "svelte-1dmgfw2");
-				add_location(a4, file$5, 91, 0, 2604);
+				add_location(a4, file$5, 95, 0, 2765);
 				if (!src_url_equal(img5.src, img5_src_value = "https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_afterRain_1-640_10.JPG")) attr_dev(img5, "src", img5_src_value);
 				attr_dev(img5, "alt", "Picture of a purple hydrangea after rain");
 				attr_dev(img5, "class", "svelte-1dmgfw2");
-				add_location(img5, file$5, 113, 1, 3463);
+				add_location(img5, file$5, 118, 1, 3677);
 				attr_dev(a5, "href", "https://photographyhobby.s3.us-east-2.amazonaws.com/afterRain_1-640_10.JPG");
 				attr_dev(a5, "data-img", "https://photographyhobby.s3.us-east-2.amazonaws.com/afterRain_1-640_10.JPG");
 				attr_dev(a5, "data-thumb", "https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_afterRain_1-640_10.JPG");
@@ -4454,43 +4447,46 @@ var app = (function () {
 				attr_dev(a5, "data-alt", "Picture of a purple hydrangea after rain");
 				attr_dev(a5, "data-caption", "A purple hydrangea after rain, with raindrops on the petals.");
 				attr_dev(a5, "class", "svelte-1dmgfw2");
-				add_location(a5, file$5, 104, 0, 3019);
+				add_location(a5, file$5, 109, 0, 3233);
 				if (!src_url_equal(img6.src, img6_src_value = "https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_dawg_1-20_10.JPG")) attr_dev(img6, "src", img6_src_value);
 				attr_dev(img6, "alt", "Picture of a dog");
 				attr_dev(img6, "class", "svelte-1dmgfw2");
-				add_location(img6, file$5, 126, 1, 3942);
+				add_location(img6, file$5, 132, 1, 4191);
 				attr_dev(a6, "href", "https://photographyhobby.s3.us-east-2.amazonaws.com/dawg_1-20_10.JPG");
 				attr_dev(a6, "data-img", "https://photographyhobby.s3.us-east-2.amazonaws.com/dawg_1-20_10.JPG");
 				attr_dev(a6, "data-thumb", "https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_dawg_1-20_10.JPG");
 				attr_dev(a6, "data-height", "3456");
 				attr_dev(a6, "data-width", "5184");
 				attr_dev(a6, "data-alt", "Picture of a dog");
+				attr_dev(a6, "data-caption", "A picture of a dog");
 				attr_dev(a6, "class", "svelte-1dmgfw2");
-				add_location(a6, file$5, 118, 0, 3617);
+				add_location(a6, file$5, 123, 0, 3831);
 				if (!src_url_equal(img7.src, img7_src_value = "https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_hydrangeaPair_1-640_10.JPG")) attr_dev(img7, "src", img7_src_value);
-				attr_dev(img7, "alt", "Picture of a pink hydrangea");
+				attr_dev(img7, "alt", "A pair of hydrangeas");
 				attr_dev(img7, "class", "svelte-1dmgfw2");
-				add_location(img7, file$5, 139, 1, 4432);
+				add_location(img7, file$5, 146, 1, 4711);
 				attr_dev(a7, "href", "https://photographyhobby.s3.us-east-2.amazonaws.com/hydrangeaPair_1-640_10.JPG");
 				attr_dev(a7, "data-img", "https://photographyhobby.s3.us-east-2.amazonaws.com/hydrangeaPair_1-640_10.JPG");
 				attr_dev(a7, "data-thumb", "https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_hydrangeaPair_1-640_10.JPG");
 				attr_dev(a7, "data-height", "3456");
 				attr_dev(a7, "data-width", "5184");
-				attr_dev(a7, "data-alt", "Picture of a pink hydrangea");
+				attr_dev(a7, "data-alt", "A pair of hydrangeas");
+				attr_dev(a7, "data-caption", "A pair of hydrangeas");
 				attr_dev(a7, "class", "svelte-1dmgfw2");
-				add_location(a7, file$5, 131, 0, 4066);
+				add_location(a7, file$5, 137, 0, 4315);
 				if (!src_url_equal(img8.src, img8_src_value = "https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_notyetaflower_1-640_10.JPG")) attr_dev(img8, "src", img8_src_value);
-				attr_dev(img8, "alt", "Picture of a pink hydrangea");
+				attr_dev(img8, "alt", "A picture of a hydrangea that hasn't bloomed yet.");
 				attr_dev(img8, "class", "svelte-1dmgfw2");
-				add_location(img8, file$5, 152, 1, 4943);
+				add_location(img8, file$5, 160, 1, 5303);
 				attr_dev(a8, "href", "https://photographyhobby.s3.us-east-2.amazonaws.com/notyetaflower_1-640_10.JPG");
 				attr_dev(a8, "data-img", "https://photographyhobby.s3.us-east-2.amazonaws.com/notyetaflower_1-640_10.JPG");
 				attr_dev(a8, "data-thumb", "https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_notyetaflower_1-640_10.JPG");
 				attr_dev(a8, "data-height", "3456");
 				attr_dev(a8, "data-width", "5184");
-				attr_dev(a8, "data-alt", "Picture of a pink hydrangea");
+				attr_dev(a8, "data-alt", "A picture of a hydrangea that hasn't bloomed yet.");
+				attr_dev(a8, "data-caption", "A picture of a hydrangea that hasn't bloomed yet.");
 				attr_dev(a8, "class", "svelte-1dmgfw2");
-				add_location(a8, file$5, 144, 0, 4577);
+				add_location(a8, file$5, 151, 0, 4849);
 				attr_dev(div, "id", "images");
 				attr_dev(div, "class", "svelte-1dmgfw2");
 				add_location(div, file$5, 38, 0, 668);
@@ -5815,7 +5811,7 @@ var app = (function () {
 		}
 	}
 
-	var css_248z = ".modal.is-active.svelte-1r3ox6t{display:flex;align-items:center;justify-content:center}";
+	var css_248z = ".modal.is-active.svelte-t55zjb.svelte-t55zjb{display:flex;align-items:center;justify-content:center}.field.has-addons.has-addons-centered.svelte-t55zjb.svelte-t55zjb{display:flex;justify-content:center;flex-wrap:wrap}.control.svelte-t55zjb.svelte-t55zjb{margin:5px}@media(max-width: 768px){.field.has-addons.has-addons-centered.svelte-t55zjb.svelte-t55zjb{flex-direction:column;align-items:center}.control.svelte-t55zjb.svelte-t55zjb{width:100%;text-align:center}.control.svelte-t55zjb button.svelte-t55zjb{width:100%}}";
 	styleInject(css_248z);
 
 	/* src/App.svelte generated by Svelte v4.2.8 */
@@ -5823,7 +5819,7 @@ var app = (function () {
 	const { console: console_1 } = globals;
 	const file = "src/App.svelte";
 
-	// (122:27) 
+	// (150:27) 
 	function create_if_block_5(ctx) {
 		let other;
 		let current;
@@ -5855,14 +5851,14 @@ var app = (function () {
 			block,
 			id: create_if_block_5.name,
 			type: "if",
-			source: "(122:27) ",
+			source: "(150:27) ",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (120:29) 
+	// (148:29) 
 	function create_if_block_4(ctx) {
 		let animals;
 		let current;
@@ -5894,14 +5890,14 @@ var app = (function () {
 			block,
 			id: create_if_block_4.name,
 			type: "if",
-			source: "(120:29) ",
+			source: "(148:29) ",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (118:28) 
+	// (146:28) 
 	function create_if_block_3(ctx) {
 		let plants;
 		let current;
@@ -5933,14 +5929,14 @@ var app = (function () {
 			block,
 			id: create_if_block_3.name,
 			type: "if",
-			source: "(118:28) ",
+			source: "(146:28) ",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (116:36) 
+	// (144:36) 
 	function create_if_block_2(ctx) {
 		let familyfriends;
 		let current;
@@ -5972,14 +5968,14 @@ var app = (function () {
 			block,
 			id: create_if_block_2.name,
 			type: "if",
-			source: "(116:36) ",
+			source: "(144:36) ",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (114:1) {#if page == "home"}
+	// (142:1) {#if page == "home"}
 	function create_if_block_1(ctx) {
 		let home;
 		let current;
@@ -6011,14 +6007,14 @@ var app = (function () {
 			block,
 			id: create_if_block_1.name,
 			type: "if",
-			source: "(114:1) {#if page == \\\"home\\\"}",
+			source: "(142:1) {#if page == \\\"home\\\"}",
 			ctx
 		});
 
 		return block;
 	}
 
-	// (126:1) {#if attemptingAccess}
+	// (154:1) {#if attemptingAccess}
 	function create_if_block(ctx) {
 		let div3;
 		let div0;
@@ -6043,7 +6039,7 @@ var app = (function () {
 				div2 = element("div");
 				div1 = element("div");
 				p = element("p");
-				p.textContent = "Please enter the password to access the Family & Friends page:";
+				p.textContent = "Please enter the password to access the Family & Friends\n\t\t\t\t\t\tpage:";
 				t2 = space();
 				input = element("input");
 				t3 = space();
@@ -6052,22 +6048,22 @@ var app = (function () {
 				t5 = space();
 				button1 = element("button");
 				attr_dev(div0, "class", "modal-background");
-				add_location(div0, file, 127, 3, 3423);
-				add_location(p, file, 130, 5, 3518);
+				add_location(div0, file, 155, 3, 3751);
+				add_location(p, file, 158, 5, 3846);
 				attr_dev(input, "type", "password");
 				attr_dev(input, "class", "input");
-				add_location(input, file, 131, 5, 3593);
+				add_location(input, file, 162, 5, 3940);
 				attr_dev(button0, "class", "button is-primary mt-2");
-				add_location(button0, file, 132, 5, 3667);
+				add_location(button0, file, 167, 5, 4037);
 				attr_dev(div1, "class", "box");
-				add_location(div1, file, 129, 4, 3495);
+				add_location(div1, file, 157, 4, 3823);
 				attr_dev(div2, "class", "modal-content");
-				add_location(div2, file, 128, 3, 3463);
+				add_location(div2, file, 156, 3, 3791);
 				attr_dev(button1, "class", "modal-close is-large");
 				attr_dev(button1, "aria-label", "close");
-				add_location(button1, file, 135, 3, 3771);
-				attr_dev(div3, "class", "modal is-active svelte-1r3ox6t");
-				add_location(div3, file, 126, 2, 3390);
+				add_location(button1, file, 173, 3, 4159);
+				attr_dev(div3, "class", "modal is-active svelte-t55zjb");
+				add_location(div3, file, 154, 2, 3718);
 			},
 			m: function mount(target, anchor) {
 				insert_dev(target, div3, anchor);
@@ -6113,7 +6109,7 @@ var app = (function () {
 			block,
 			id: create_if_block.name,
 			type: "if",
-			source: "(126:1) {#if attemptingAccess}",
+			source: "(154:1) {#if attemptingAccess}",
 			ctx
 		});
 
@@ -6160,17 +6156,14 @@ var app = (function () {
 		let button4;
 		let t20;
 		let t21;
-		let p2;
-		let t22;
-		let t23;
 		let current_block_type_index;
 		let if_block0;
-		let t24;
-		let t25;
+		let t22;
+		let t23;
 		let br2;
-		let t26;
+		let t24;
 		let div7;
-		let p3;
+		let p2;
 		let current;
 		let mounted;
 		let dispose;
@@ -6208,10 +6201,10 @@ var app = (function () {
 				t1 = space();
 				div0 = element("div");
 				p0 = element("p");
-				t2 = text("Welcome to my gallery! This is my personal photo gallery where\n\t\t\tI (");
+				t2 = text("Welcome to my gallery! This is my personal photo gallery where I (");
 				a0 = element("a");
 				a0.textContent = "Graham Zemel";
-				t4 = text(") upload my\n\t\t\tphotos and share them with the world. I hope you enjoy the photos as\n\t\t\tmuch as I enjoyed taking them.");
+				t4 = text(") upload my photos and share them with the world. I hope you enjoy\n\t\t\tthe photos as much as I enjoyed taking them.");
 				t5 = space();
 				br0 = element("br");
 				t6 = space();
@@ -6244,59 +6237,55 @@ var app = (function () {
 				button4 = element("button");
 				t20 = text("Other");
 				t21 = space();
-				p2 = element("p");
-				t22 = text(/*page*/ ctx[0]);
-				t23 = space();
 				if (if_block0) if_block0.c();
-				t24 = space();
+				t22 = space();
 				if (if_block1) if_block1.c();
-				t25 = space();
+				t23 = space();
 				br2 = element("br");
-				t26 = space();
+				t24 = space();
 				div7 = element("div");
-				p3 = element("p");
-				p3.textContent = "All images are taken by me, Graham Zemel. If you would like to use any, you are welcome to do so, but please credit me and link back to my website.";
+				p2 = element("p");
+				p2.textContent = "All images are taken by me, Graham Zemel. If you would like to use\n\t\t\tany, you are welcome to do so, but please credit me and link back to\n\t\t\tmy website.";
 				attr_dev(h1, "class", "title has-text-centered");
-				add_location(h1, file, 69, 1, 1716);
+				add_location(h1, file, 82, 1, 1981);
 				attr_dev(a0, "href", "https://grahamzemel.com");
-				add_location(a0, file, 73, 6, 1899);
-				add_location(p0, file, 71, 2, 1823);
-				add_location(br0, file, 77, 2, 2076);
+				add_location(a0, file, 85, 69, 2161);
+				add_location(p0, file, 84, 2, 2088);
+				add_location(br0, file, 90, 2, 2343);
 				attr_dev(a1, "href", "https://github.com/grahamzemel/quantum-gallery");
-				add_location(a1, file, 80, 3, 2142);
-				add_location(p1, file, 78, 2, 2083);
+				add_location(a1, file, 93, 3, 2411);
+				add_location(p1, file, 91, 2, 2352);
 				attr_dev(div0, "class", "box p-5 has-text-centered");
-				add_location(div0, file, 70, 1, 1781);
-				add_location(br1, file, 83, 1, 2227);
-				attr_dev(button0, "class", "button same-width-button $" + /*isActive*/ ctx[6]('plants') + " svelte-1r3ox6t");
-				add_location(button0, file, 87, 3, 2314);
-				attr_dev(div1, "class", "control");
-				add_location(div1, file, 86, 2, 2289);
-				attr_dev(button1, "class", "button same-width-button $" + /*isActive*/ ctx[6]('animals') + " svelte-1r3ox6t");
-				add_location(button1, file, 92, 3, 2476);
-				attr_dev(div2, "class", "control");
-				add_location(div2, file, 91, 2, 2451);
-				attr_dev(button2, "class", "button same-width-button $" + /*isActive*/ ctx[6]('home') + " svelte-1r3ox6t");
-				add_location(button2, file, 97, 3, 2641);
-				attr_dev(div3, "class", "control");
-				add_location(div3, file, 96, 2, 2616);
-				attr_dev(button3, "class", "button same-width-button $" + /*isActive*/ ctx[6]('family-friends') + " svelte-1r3ox6t");
-				add_location(button3, file, 102, 3, 2797);
-				attr_dev(div4, "class", "control");
-				add_location(div4, file, 101, 2, 2772);
-				attr_dev(button4, "class", "button same-width-button $" + /*isActive*/ ctx[6]('other') + " svelte-1r3ox6t");
-				add_location(button4, file, 107, 3, 2985);
-				attr_dev(div5, "class", "control");
-				add_location(div5, file, 106, 2, 2960);
-				attr_dev(div6, "class", "field has-addons has-addons-centered");
-				add_location(div6, file, 85, 1, 2236);
-				add_location(p2, file, 112, 1, 3126);
-				add_location(br2, file, 139, 1, 3877);
-				add_location(p3, file, 141, 2, 3925);
+				add_location(div0, file, 83, 1, 2046);
+				add_location(br1, file, 96, 1, 2496);
+				attr_dev(button0, "class", "button same-width-button $" + /*isActive*/ ctx[6]('plants') + " svelte-t55zjb");
+				add_location(button0, file, 100, 3, 2596);
+				attr_dev(div1, "class", "control svelte-t55zjb");
+				add_location(div1, file, 99, 2, 2571);
+				attr_dev(button1, "class", "button same-width-button $" + /*isActive*/ ctx[6]('animals') + " svelte-t55zjb");
+				add_location(button1, file, 108, 3, 2770);
+				attr_dev(div2, "class", "control svelte-t55zjb");
+				add_location(div2, file, 107, 2, 2745);
+				attr_dev(button2, "class", "button same-width-button $" + /*isActive*/ ctx[6]('home') + " svelte-t55zjb");
+				add_location(button2, file, 116, 3, 2947);
+				attr_dev(div3, "class", "control svelte-t55zjb");
+				add_location(div3, file, 115, 2, 2922);
+				attr_dev(button3, "class", "button same-width-button $" + /*isActive*/ ctx[6]('family-friends') + " svelte-t55zjb");
+				add_location(button3, file, 124, 3, 3115);
+				attr_dev(div4, "class", "control svelte-t55zjb");
+				add_location(div4, file, 123, 2, 3090);
+				attr_dev(button4, "class", "button same-width-button $" + /*isActive*/ ctx[6]('other') + " svelte-t55zjb");
+				add_location(button4, file, 132, 3, 3315);
+				attr_dev(div5, "class", "control svelte-t55zjb");
+				add_location(div5, file, 131, 2, 3290);
+				attr_dev(div6, "class", "field has-addons has-addons-centered is-flex-wrap svelte-t55zjb");
+				add_location(div6, file, 98, 1, 2505);
+				add_location(br2, file, 181, 1, 4281);
+				add_location(p2, file, 183, 2, 4331);
 				attr_dev(div7, "class", "box p-5 has-text-centered");
-				add_location(div7, file, 140, 1, 3883);
+				add_location(div7, file, 182, 1, 4289);
 				attr_dev(body, "class", "container");
-				add_location(body, file, 68, 0, 1690);
+				add_location(body, file, 81, 0, 1955);
 			},
 			l: function claim(nodes) {
 				throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -6341,21 +6330,18 @@ var app = (function () {
 				append_dev(div5, button4);
 				append_dev(button4, t20);
 				append_dev(body, t21);
-				append_dev(body, p2);
-				append_dev(p2, t22);
-				append_dev(body, t23);
 
 				if (~current_block_type_index) {
 					if_blocks[current_block_type_index].m(body, null);
 				}
 
-				append_dev(body, t24);
+				append_dev(body, t22);
 				if (if_block1) if_block1.m(body, null);
-				append_dev(body, t25);
+				append_dev(body, t23);
 				append_dev(body, br2);
-				append_dev(body, t26);
+				append_dev(body, t24);
 				append_dev(body, div7);
-				append_dev(div7, p3);
+				append_dev(div7, p2);
 				current = true;
 
 				if (!mounted) {
@@ -6371,7 +6357,6 @@ var app = (function () {
 				}
 			},
 			p: function update(ctx, [dirty]) {
-				if (!current || dirty & /*page*/ 1) set_data_dev(t22, /*page*/ ctx[0]);
 				let previous_block_index = current_block_type_index;
 				current_block_type_index = select_block_type(ctx);
 
@@ -6395,7 +6380,7 @@ var app = (function () {
 						}
 
 						transition_in(if_block0, 1);
-						if_block0.m(body, t24);
+						if_block0.m(body, t22);
 					} else {
 						if_block0 = null;
 					}
@@ -6407,7 +6392,7 @@ var app = (function () {
 					} else {
 						if_block1 = create_if_block(ctx);
 						if_block1.c();
-						if_block1.m(body, t25);
+						if_block1.m(body, t23);
 					}
 				} else if (if_block1) {
 					if_block1.d(1);
@@ -6456,8 +6441,9 @@ var app = (function () {
 		let { $$slots: slots = {}, $$scope } = $$props;
 		validate_slots('App', slots, []);
 		let page;
+		let testing = false;
 		let attemptingAccess = false;
-		let enteredPassword = '';
+		let enteredPassword = "";
 		let isPasswordProtected = true;
 		const correctPassword = "2035859184";
 
@@ -6484,9 +6470,9 @@ var app = (function () {
 			if (enteredPassword === correctPassword) {
 				isPasswordProtected = false;
 				$$invalidate(1, attemptingAccess = false);
-				navigateTo('family-friends');
+				navigateTo("family-friends");
 			} else {
-				alert('Incorrect password. Please try again.');
+				alert("Incorrect password. Please try again.");
 			}
 		}
 
@@ -6500,7 +6486,7 @@ var app = (function () {
 
 		function isActive(buttonPage) {
 			console.log(page, buttonPage);
-			return page === buttonPage ? 'is-active' : '';
+			return page === buttonPage ? "is-active" : "";
 		}
 
 		const writable_props = [];
@@ -6509,11 +6495,11 @@ var app = (function () {
 			if (!~writable_props.indexOf(key) && key.slice(0, 2) !== '$$' && key !== 'slot') console_1.warn(`<App> was created with unknown prop '${key}'`);
 		});
 
-		const click_handler = () => navigateTo('plants');
-		const click_handler_1 = () => navigateTo('animals');
-		const click_handler_2 = () => navigateTo('home');
-		const click_handler_3 = () => navigateTo('family-friends');
-		const click_handler_4 = () => navigateTo('other');
+		const click_handler = () => navigateTo("plants");
+		const click_handler_1 = () => navigateTo("animals");
+		const click_handler_2 = () => navigateTo("home");
+		const click_handler_3 = () => navigateTo("family-friends");
+		const click_handler_4 = () => navigateTo("other");
 
 		function input_input_handler() {
 			enteredPassword = this.value;
@@ -6529,6 +6515,7 @@ var app = (function () {
 			Plants,
 			Other,
 			page,
+			testing,
 			attemptingAccess,
 			enteredPassword,
 			isPasswordProtected,
@@ -6542,6 +6529,7 @@ var app = (function () {
 
 		$$self.$inject_state = $$props => {
 			if ('page' in $$props) $$invalidate(0, page = $$props.page);
+			if ('testing' in $$props) $$invalidate(15, testing = $$props.testing);
 			if ('attemptingAccess' in $$props) $$invalidate(1, attemptingAccess = $$props.attemptingAccess);
 			if ('enteredPassword' in $$props) $$invalidate(2, enteredPassword = $$props.enteredPassword);
 			if ('isPasswordProtected' in $$props) isPasswordProtected = $$props.isPasswordProtected;
@@ -6554,13 +6542,29 @@ var app = (function () {
 		$$self.$$.update = () => {
 			if ($$self.$$.dirty & /*$state, page*/ 129) {
 				if ($state) {
-					console.log($state);
-					console.log($state[0].component.name);
 					$$invalidate(0, page = $state[0].component.name);
 
-					if (page == 'se') {
-						$$invalidate(0, page = 'home');
-					}
+					if (!testing) {
+						if (page == "se") {
+							$$invalidate(0, page = "home");
+						}
+
+						if (page == "fe") {
+							$$invalidate(0, page = "plants");
+						}
+
+						if (page == "pe") {
+							$$invalidate(0, page = "animals");
+						}
+
+						if (page == "ke") {
+							$$invalidate(0, page = "other");
+						}
+
+						if (page == "be") {
+							$$invalidate(0, page = "family-friends");
+						}
+					} // i have no clue why this is happening only in production but this works
 				}
 			}
 		};
