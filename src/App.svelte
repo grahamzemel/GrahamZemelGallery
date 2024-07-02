@@ -8,7 +8,6 @@
 	import Plants from "./main/Plants.svelte";
 	import Other from "./main/Other.svelte";
 	
-
 	let page;
 	let attemptingAccess = false;
 	let enteredPassword = '';
@@ -56,6 +55,7 @@
 	});
 
 	function isActive(buttonPage) {
+		console.log(page, buttonPage)
 		return page === buttonPage ? 'is-active' : '';
 	}
 	
@@ -107,15 +107,15 @@
 	</div>
 	<Home />
 
-	{#if page == "Home"}
+	{#if page == "home"}
 		<Home />
-	{:else if page == "FamilyFriends"}
+	{:else if page == "familyfriends"}
 		<FamilyFriends />
-	{:else if page == "Plants"}
+	{:else if page == "plants"}
 		<Plants />
-	{:else if page == "Animals"}
+	{:else if page == "animals"}
 		<Animals />
-	{:else if page == "Other"}
+	{:else if page == "other"}
 		<Other />
 	{/if}
 
