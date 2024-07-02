@@ -105,11 +105,10 @@
 			</button>
 		</div>
 	</div>
-	<Home />
-
+	<p>{page}</p>
 	{#if page == "home"}
 		<Home />
-	{:else if page == "familyfriends"}
+	{:else if page == "family-friends"}
 		<FamilyFriends />
 	{:else if page == "plants"}
 		<Plants />
