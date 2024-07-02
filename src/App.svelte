@@ -15,6 +15,7 @@
 	const correctPassword = process.env.FRIENDSANDFAMILY; 
 
 	$: if ($state) {
+		console.log($state)
 		console.log($state[0].component.name)
 		page = $state[0].component.name;
 		if(page == 'se'){
