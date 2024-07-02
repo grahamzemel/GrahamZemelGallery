@@ -1,4 +1,4 @@
-# Quantum Gallery
+# Graham Zemel's Gallery
 By Graham Zemel
 
 This is a fun gallery project I made since I recently have taken up photography. 
