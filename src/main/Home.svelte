@@ -44,6 +44,7 @@ Macy({
 	data-height="3456"
 	data-width="5184"
 	data-alt="Picture of a pink hydrangea"
+	data-caption="A pink hydrangea"
 >
 	<img
 	src="https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_pinkHydrangea_1-500_10.JPG"
@@ -57,6 +58,7 @@ Macy({
 	data-height="3456"
 	data-width="5184"
 	data-alt="Picture of some tiny flowers"
+	data-caption="Some tiny flowers"
 >
 	<img
 	src="https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_tinyFlowers_1-125_7.1.JPG"
@@ -70,6 +72,7 @@ Macy({
 	data-height="3456"
 	data-width="5184"
 	data-alt="Picture of a dawg"
+	data-caption="A picture of a tibetan terrier"
 >
 	<img
 	src="https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_gooddog.JPG"
@@ -83,6 +86,7 @@ Macy({
 	data-height="3456"
 	data-width="5184"
 	data-alt="Picture of buzzing bees"
+	data-caption="A picture of bees and lavendar"
 >
 	<img
 	src="https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_bees_1-80_5.6.JPG"
@@ -96,6 +100,7 @@ Macy({
 	data-height="3456"
 	data-width="5184"
 	data-alt="Picture of a dawg"
+	data-caption="Another picture of a tibetan terrier"
 >
 	<img
 	src="https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_arf.JPG"
@@ -123,6 +128,7 @@ Macy({
 	data-height="3456"
 	data-width="5184"
 	data-alt="Picture of a dog"
+	data-caption="A picture of a dog"
 >
 	<img
 	src="https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_dawg_1-20_10.JPG"
@@ -135,11 +141,12 @@ Macy({
 	data-thumb="https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_hydrangeaPair_1-640_10.JPG"
 	data-height="3456"
 	data-width="5184"
-	data-alt="Picture of a pink hydrangea"
+	data-alt="A pair of hydrangeas"
+	data-caption="A pair of hydrangeas"
 >
 	<img
 	src="https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_hydrangeaPair_1-640_10.JPG"
-	alt="Picture of a pink hydrangea"
+	alt="A pair of hydrangeas"
 	/>
 </a>
 <a
@@ -148,11 +155,12 @@ Macy({
 	data-thumb="https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_notyetaflower_1-640_10.JPG"
 	data-height="3456"
 	data-width="5184"
-	data-alt="Picture of a pink hydrangea"
+	data-alt="A picture of a hydrangea that hasn't bloomed yet."
+	data-caption="A picture of a hydrangea that hasn't bloomed yet."
 >
 	<img
 	src="https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_notyetaflower_1-640_10.JPG"
-	alt="Picture of a pink hydrangea"
+	alt="A picture of a hydrangea that hasn't bloomed yet."
 	/>
 </a>
 </div>
