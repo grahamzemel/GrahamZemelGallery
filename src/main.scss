@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+
+// Update Bulma's global variables
+$family-sans-serif: "Nunito", sans-serif;
+$grey-dark: #363636;
+$grey-darker: #242424;
+$grey-light: #dbdbdb;
+$primary: #00d1b2;
+$link: #3273dc;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+
+// make the h1 light
+$title-color: $grey-light;
+$subtitle-color: $grey-light;
+$button-color: $grey-dark;
+$body-background-color: $grey-darker;
+$button-background-color: $grey-light;
+$button-border-color: $grey-dark;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+// Import only what you need from Bulma
+@import "../node_modules/bulma/sass/utilities/initial-variables";
+@import "../node_modules/bulma/bulma";
+
+// Add custom styles
+.same-width-button {
+    width: 170px; /* Adjust this value as needed */
+    text-align: center;
+    border: 2px solid $button-border-color;
+    color: $button-color;
+    background-color: $button-background-color;
+    transition: all 0.3s ease;
+    &:hover {
+        background-color: lighten($button-background-color, 10%);
+        border-color: lighten($button-border-color, 10%);
+    }
+    &.is-active {
+        background-color: $primary;
+        color: #fff;
+        border-color: $primary;
+    }
+}
+
+// Ensure the buttons are consistently styled
+.button {
+    font-family: $family-sans-serif;
+    font-weight: 700;
+    border-radius: 4px;
+    padding: 10px 15px;
+}
+
+.box {
+    background-color: lighten($grey-dark, 5%);
+    color: $grey-light;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    background-color: $body-background-color;
+    padding: 20px;
+    border-radius: 10px;
+    // box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    color: $link;
+    text-decoration: underline;
+    &:hover {
+        color: lighten($link, 10%);
+    }
+}
+
+p {
+    color: $grey-light;
+    font-size: 1.1em;
+}
