@@ -58,6 +58,7 @@
 	function isActive(buttonPage) {
 		return page === buttonPage ? 'is-active' : '';
 	}
+	console.log("Active")
 </script>
 
 <body class="container">
