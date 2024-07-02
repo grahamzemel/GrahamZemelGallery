@@ -52,13 +52,14 @@
 	}
 
 	onMount(() => {
+		page = "Home";
 		state.set([{ id: 0, component: Home }]);
 	});
 
 	function isActive(buttonPage) {
 		return page === buttonPage ? 'is-active' : '';
 	}
-	console.log(page)
+	
 </script>
 
 <body class="container">
