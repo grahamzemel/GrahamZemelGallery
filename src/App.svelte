@@ -21,6 +21,19 @@
 		if(page == 'se'){
 			page = 'home';
 		}
+		if(page == 'fe'){
+			page = 'plants';
+		}
+		if(page == 'pe'){
+			page = 'animals';
+		}
+		if(page == 'ke'){
+			page = 'other';
+		}
+		if(page == 'be'){
+			page = 'family-friends';
+		}
+		// i have no clue why this is happening only in production but this works
 	}
 
 	function navigateTo(page) {
@@ -110,7 +123,7 @@
 			</button>
 		</div>
 	</div>
-	<p>{page}</p>
+
 	{#if page == "home"}
 		<Home />
 	{:else if page == "family-friends"}
