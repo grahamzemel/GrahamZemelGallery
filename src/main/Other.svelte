@@ -39,17 +39,17 @@ Macy({
 
 <div id="images">
 	<a
-		href="https://photographyhobby.s3.us-east-2.amazonaws.com/smileyface.jpg"
-		data-img="https://photographyhobby.s3.us-east-2.amazonaws.com/smileyface.jpg"
-		data-thumb="https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_smileyface.jpg"
-		data-height="3456"
-		data-width="5184"
-		data-alt="Picture of a smiley face made from fireworks"
-		data-caption="This firework reminded me of a smiley face :)."
+		href="https://photographyhobby.s3.us-east-2.amazonaws.com/fireworks!.jpg"
+		data-img="https://photographyhobby.s3.us-east-2.amazonaws.com/fireworks!.jpg"
+		data-thumb="https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_fireworks!.jpg"
+		data-height="5184"
+		data-width="3456"
+		data-alt="A picture of two fireworks"
+		data-caption="The kickoff! These were the first two fireworks of the night."
 	>
 		<img
-		src="https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_smileyface.jpg"
-		alt="Picture of a smiley face made from fireworks"
+		src="https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_fireworks!.jpg"
+		alt="A picture of two fireworks"
 		/>
 	</a>
 	<a
@@ -78,20 +78,6 @@ Macy({
 		<img
 		src="https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_firework.jpg"
 		alt="Picture of some tiny flowers"
-		/>
-	</a>
-	<a
-		href="https://photographyhobby.s3.us-east-2.amazonaws.com/fireworks!.jpg"
-		data-img="https://photographyhobby.s3.us-east-2.amazonaws.com/fireworks!.jpg"
-		data-thumb="https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_fireworks!.jpg"
-		data-height="5184"
-		data-width="3456"
-		data-alt="A picture of two fireworks"
-		data-caption="The kickoff! These were the first two fireworks of the night."
-	>
-		<img
-		src="https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_fireworks!.jpg"
-		alt="A picture of two fireworks"
 		/>
 	</a>
 	<a
@@ -162,6 +148,20 @@ Macy({
 		<img
 		src="https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_skyflower.jpg"
 		alt="A firework that looks like a flower"
+		/>
+	</a>
+	<a
+		href="https://photographyhobby.s3.us-east-2.amazonaws.com/smileyface.jpg"
+		data-img="https://photographyhobby.s3.us-east-2.amazonaws.com/smileyface.jpg"
+		data-thumb="https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_smileyface.jpg"
+		data-height="3456"
+		data-width="5184"
+		data-alt="Picture of a smiley face made from fireworks"
+		data-caption="This firework reminded me of a smiley face :)."
+	>
+		<img
+		src="https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_smileyface.jpg"
+		alt="Picture of a smiley face made from fireworks"
 		/>
 	</a>
 	</div>
