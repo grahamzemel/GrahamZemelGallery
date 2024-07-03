@@ -38,17 +38,32 @@ Macy({
 </script>
 
 <div id="images">
-<a
-	href="https://assets.henrygd.me/bp/images/joshua-sukoff-sZ5zbZMAYJs-unsplash.jpg"
-	data-img="https://assets.henrygd.me/bp/images/joshua-sukoff-sZ5zbZMAYJs-unsplash_1133.jpg 1133w, https://assets.henrygd.me/bp/images/joshua-sukoff-sZ5zbZMAYJs-unsplash.jpg 1667w"
-	data-thumb="https://assets.henrygd.me/bp/images/joshua-sukoff-sZ5zbZMAYJs-unsplash_thumb.jpg"
-	data-height="2500"
-	data-width="1667"
-	data-alt="Antelope Canyon"
+	<a
+	href="https://photographyhobby.s3.us-east-2.amazonaws.com/omegaseamaster.jpg"
+	data-img="https://photographyhobby.s3.us-east-2.amazonaws.com/omegaseamaster.jpg"
+	data-thumb="https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_omegaseamaster.jpg"
+	data-height="3456"
+	data-width="5184"
+	data-alt="Picture of an omega seamaster aqua terra"
+	data-caption="This is a picture of my Omega Seamaster Aqua Terra that I took while waiting for the 4th of July fireworks."
 >
 	<img
-	src="https://assets.henrygd.me/bp/images/joshua-sukoff-sZ5zbZMAYJs-unsplash_thumb.jpg"
-	alt="Antelope Canyon"
+	src="https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_omegaseamaster.jpg"
+	alt="Picture of an omega seamaster aqua terra"
+	/>
+</a>
+<a
+	href="https://photographyhobby.s3.us-east-2.amazonaws.com/julian.jpg"
+	data-img="https://photographyhobby.s3.us-east-2.amazonaws.com/julian.jpg"
+	data-thumb="https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_julian.jpg"
+	data-height="3456"
+	data-width="5184"
+	data-alt="Picture of my brother, Julian"
+	data-caption="This is a picture of my little brother, Julian. He then proceeded to ask for 20 more pictures of himself."
+>
+	<img
+	src="https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_julian.jpg"
+	alt="Picture of my brother, Julian"
 	/>
 </a>
 <a

@@ -205,6 +205,34 @@ Macy({
 		alt="A nice picture of three fireworks"
 		/>
 	</a>
+	<a
+	href="https://photographyhobby.s3.us-east-2.amazonaws.com/fullbeach.jpg"
+	data-img="https://photographyhobby.s3.us-east-2.amazonaws.com/fullbeach.jpg"
+	data-thumb="https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_fullbeach.jpg"
+	data-height="3456"
+	data-width="5184"
+	data-alt="Picture of a very populated beach"
+	data-caption="The beach was pretty crowded on the 4th of July for the fireworks."
+>
+	<img
+	src="https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_fullbeach.jpg"
+	alt="Picture of a very populated beach"
+	/>
+</a>
+<a
+	href="https://photographyhobby.s3.us-east-2.amazonaws.com/fireworksboat.jpg"
+	data-img="https://photographyhobby.s3.us-east-2.amazonaws.com/fireworksboat.jpg"
+	data-thumb="https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_fireworksboat.jpg"
+	data-height="3456"
+	data-width="5184"
+	data-alt="Picture of the melissa and doug fireworks boat"
+	data-caption="This is a picture of the Melissa & Doug fireworks boat on July 4th."
+>
+	<img
+	src="https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_fireworksboat.jpg"
+	alt="Picture of the melissa and doug fireworks boat"
+	/>
+</a>
 </div>
 
 <style>
