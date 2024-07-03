@@ -21,7 +21,7 @@
 		if(page == 'se'){
 			page = 'home';
 		}
-		if(page == 'fe'){
+		if(page == 'ge'){
 			page = 'plants';
 		}
 		if(page == 'pe'){
