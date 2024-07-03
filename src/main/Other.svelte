@@ -38,124 +38,134 @@ Macy({
 
 
 <div id="images">
-<a
-	href="https://assets.henrygd.me/bp/images/joshua-sukoff-sZ5zbZMAYJs-unsplash.jpg"
-	data-img="https://assets.henrygd.me/bp/images/joshua-sukoff-sZ5zbZMAYJs-unsplash_1133.jpg 1133w, https://assets.henrygd.me/bp/images/joshua-sukoff-sZ5zbZMAYJs-unsplash.jpg 1667w"
-	data-thumb="https://assets.henrygd.me/bp/images/joshua-sukoff-sZ5zbZMAYJs-unsplash_thumb.jpg"
-	data-height="2500"
-	data-width="1667"
-	data-alt="Antelope Canyon"
->
-	<img
-	src="https://assets.henrygd.me/bp/images/joshua-sukoff-sZ5zbZMAYJs-unsplash_thumb.jpg"
-	alt="Antelope Canyon"
-	/>
-</a>
-<a
-	href="https://assets.henrygd.me/bp/images/daniel-sessler-5El_7dJ0kKo-unsplash.jpg"
-	data-img="https://assets.henrygd.me/bp/images/daniel-sessler-5El_7dJ0kKo-unsplash_1500.jpg 1500w, https://assets.henrygd.me/bp/images/daniel-sessler-5El_7dJ0kKo-unsplash.jpg 2400w"
-	data-thumb="https://assets.henrygd.me/bp/images/daniel-sessler-5El_7dJ0kKo-unsplash_thumb.jpg"
-	data-height="2400"
-	data-width="2400"
-	data-alt="brown and white mountain under gray sky"
->
-	<img
-	src="https://assets.henrygd.me/bp/images/daniel-sessler-5El_7dJ0kKo-unsplash_thumb.jpg"
-	alt="brown and white mountain under gray sky"
-	/>
-</a>
-<a
-	href="https://assets.henrygd.me/bp/images/janko-ferlic-SDivo1PTBDs-unsplash.jpg"
-	data-img="https://assets.henrygd.me/bp/images/janko-ferlic-SDivo1PTBDs-unsplash_1800.jpg 1800w, https://assets.henrygd.me/bp/images/janko-ferlic-SDivo1PTBDs-unsplash.jpg 3000w"
-	data-thumb="https://assets.henrygd.me/bp/images/janko-ferlic-SDivo1PTBDs-unsplash_thumb.jpg"
-	data-height="2000"
-	data-width="3000"
-	data-alt="wildlife photography of brown bear cub"
->
-	<img
-	src="https://assets.henrygd.me/bp/images/janko-ferlic-SDivo1PTBDs-unsplash_thumb.jpg"
-	alt="wildlife photography of brown bear cub"
-	/>
-</a>
-<a
-	href="https://assets.henrygd.me/bp/images/corey-agopian-5y4ljzRrDFA-unsplash.jpg"
-	data-img="https://assets.henrygd.me/bp/images/corey-agopian-5y4ljzRrDFA-unsplash_1800.jpg 1800w, https://assets.henrygd.me/bp/images/corey-agopian-5y4ljzRrDFA-unsplash.jpg 3000w"
-	data-thumb="https://assets.henrygd.me/bp/images/corey-agopian-5y4ljzRrDFA-unsplash_thumb.jpg"
-	data-height="2000"
-	data-width="3000"
-	data-alt="green-and-brown palm trees under clear blue sky"
->
-	<img
-	src="https://assets.henrygd.me/bp/images/corey-agopian-5y4ljzRrDFA-unsplash_thumb.jpg"
-	alt="green-and-brown palm trees under clear blue sky"
-	/>
-</a>
-<a
-	href="https://assets.henrygd.me/bp/images/andrew-pons-lylCw4zcA7I-unsplash.jpg"
-	data-img="https://assets.henrygd.me/bp/images/andrew-pons-lylCw4zcA7I-unsplash_1133.jpg 1133w, https://assets.henrygd.me/bp/images/andrew-pons-lylCw4zcA7I-unsplash.jpg 1667w"
-	data-thumb="https://assets.henrygd.me/bp/images/andrew-pons-lylCw4zcA7I-unsplash_thumb.jpg"
-	data-height="2500"
-	data-width="1667"
-	data-alt="close up of a yellow and blue macaw"
->
-	<img
-	src="https://assets.henrygd.me/bp/images/andrew-pons-lylCw4zcA7I-unsplash_thumb.jpg"
-	alt="close up of a yellow and blue macaw"
-	/>
-</a>
-<a
-	href="https://assets.henrygd.me/bp/images/veeterzy-EYcvA56gSjU.jpg"
-	data-img="https://assets.henrygd.me/bp/images/veeterzy-EYcvA56gSjU_1500.jpg 1500w, https://assets.henrygd.me/bp/images/veeterzy-EYcvA56gSjU.jpg 2400w"
-	data-thumb="https://assets.henrygd.me/bp/images/veeterzy-EYcvA56gSjU_thumb.jpg"
-	data-height="2400"
-	data-width="2400"
-	data-alt="mountains clouded in purple fog"
->
-	<img
-	src="https://assets.henrygd.me/bp/images/veeterzy-EYcvA56gSjU_thumb.jpg"
-	alt="mountains clouded in purple fog"
-	/>
-</a>
-<a
-	href="https://assets.henrygd.me/bp/images/harshil-gudka-9GptkQwAAsc-unsplash.jpg"
-	data-img="https://assets.henrygd.me/bp/images/harshil-gudka-9GptkQwAAsc-unsplash_1500.jpg 1500w, https://assets.henrygd.me/bp/images/harshil-gudka-9GptkQwAAsc-unsplash.jpg 2400w"
-	data-thumb="https://assets.henrygd.me/bp/images/harshil-gudka-9GptkQwAAsc-unsplash_thumb.jpg"
-	data-height="2400"
-	data-width="2400"
-	data-alt="three brown leopards hiding on grass field during daytime"
->
-	<img
-	src="https://assets.henrygd.me/bp/images/harshil-gudka-9GptkQwAAsc-unsplash_thumb.jpg"
-	alt="three brown leopards hiding on grass field during daytime"
-	/>
-</a>
-<a
-	href="https://assets.henrygd.me/bp/images/andrew-svk-REwZEYzw19g-unsplash.jpg"
-	data-img="https://assets.henrygd.me/bp/images/andrew-svk-REwZEYzw19g-unsplash_1800.jpg 1800w, https://assets.henrygd.me/bp/images/andrew-svk-REwZEYzw19g-unsplash.jpg 3000w"
-	data-thumb="https://assets.henrygd.me/bp/images/andrew-svk-REwZEYzw19g-unsplash_thumb.jpg"
-	data-height="2000"
-	data-width="3000"
-	data-alt="people stand under unique trees on socotra"
->
-	<img
-	src="https://assets.henrygd.me/bp/images/andrew-svk-REwZEYzw19g-unsplash_thumb.jpg"
-	alt="people stand under unique trees on socotra"
-	/>
-</a>
-<a
-	href="https://assets.henrygd.me/bp/images/johannes-andersson-UCd78vfC8vU-unsplash.jpg"
-	data-img="https://assets.henrygd.me/bp/images/johannes-andersson-UCd78vfC8vU-unsplash_1133.jpg 1133w, https://assets.henrygd.me/bp/images/johannes-andersson-UCd78vfC8vU-unsplash.jpg 1667w"
-	data-thumb="https://assets.henrygd.me/bp/images/johannes-andersson-UCd78vfC8vU-unsplash_thumb.jpg"
-	data-height="2500"
-	data-width="1667"
-	data-alt="two brown deer beside trees and mountain"
->
-	<img
-	src="https://assets.henrygd.me/bp/images/johannes-andersson-UCd78vfC8vU-unsplash_thumb.jpg"
-	alt="two brown deer beside trees and mountain"
-	/>
-</a>
-</div>
+	<a
+		href="https://photographyhobby.s3.us-east-2.amazonaws.com/smileyface.JPG"
+		data-img="https://photographyhobby.s3.us-east-2.amazonaws.com/smileyface.JPG"
+		data-thumb="https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_smileyface.JPG"
+		data-height="3456"
+		data-width="5184"
+		data-alt="Picture of a smiley face made from fireworks"
+		data-caption="This firework reminded me of a smiley face :)."
+	>
+		<img
+		src="https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_smileyface.JPG"
+		alt="Picture of a smiley face made from fireworks"
+		/>
+	</a>
+	<a
+		href="https://photographyhobby.s3.us-east-2.amazonaws.com/purpleexposure.JPG"
+		data-img="https://photographyhobby.s3.us-east-2.amazonaws.com/purpleexposure.JPG"
+		data-thumb="https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_purpleexposure.JPG"
+		data-height="1943"
+		data-width="2914"
+		data-alt="A firework that looks like a purple flower in the sky."
+		data-caption="This firework looked like a purple flower in the sky to me, and the long shutter speed made it really neat."
+	>
+		<img
+		src="https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_purpleexposure.JPG"
+		alt="A firework that looks like a purple flower in the sky."
+		/>
+	</a>
+	<a
+		href="https://photographyhobby.s3.us-east-2.amazonaws.com/firework.JPG"
+		data-img="https://photographyhobby.s3.us-east-2.amazonaws.com/firework.JPG"
+		data-thumb="https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_firework.JPG"
+		data-height="5184"
+		data-width="3456"
+		data-alt="A nice singular photo of a firework"
+		data-caption="A pretty nice photo of a firework, if I do say so myself."
+	>
+		<img
+		src="https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_firework.JPG"
+		alt="Picture of some tiny flowers"
+		/>
+	</a>
+	<a
+		href="https://photographyhobby.s3.us-east-2.amazonaws.com/fireworks!.JPG"
+		data-img="https://photographyhobby.s3.us-east-2.amazonaws.com/fireworks!.JPG"
+		data-thumb="https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_fireworks!.JPG"
+		data-height="5184"
+		data-width="3456"
+		data-alt="A picture of two fireworks"
+		data-caption="The kickoff! These were the first two fireworks of the night."
+	>
+		<img
+		src="https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_fireworks!.JPG"
+		alt="A picture of two fireworks"
+		/>
+	</a>
+	<a
+		href="https://photographyhobby.s3.us-east-2.amazonaws.com/hacker.JPG"
+		data-img="https://photographyhobby.s3.us-east-2.amazonaws.com/hacker.JPG"
+		data-thumb="https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_hacker.JPG"
+		data-height="3456"
+		data-width="3456"
+		data-alt="Picture of a firework that looks like that hacking scene from the matrix."
+		data-caption="When I took this picture, I thought it looked a bit like the falling green text from the matrix due to the long shutter speed."
+	>
+		<img
+		src="https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_hacker.JPG"
+		alt="Picture of a firework that looks like that hacking scene from the matrix."
+		/>
+	</a>
+	<a
+		href="https://photographyhobby.s3.us-east-2.amazonaws.com/littlebitoeverything.JPG"
+		data-img="https://photographyhobby.s3.us-east-2.amazonaws.com/littlebitoeverything.JPG"
+		data-thumb="https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_littlebitoeverything.JPG"
+		data-height="5184"
+		data-width="3456"
+		data-alt="Picture of a bunch of fireworks"
+		data-caption="Another picture of a bunch of fireworks, this one looked particularly interesting to me because of the long shutter speed."
+	>
+		<img
+		src="https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_littlebitoeverything.JPG"
+		alt="Picture of a bunch of fireworks"
+		/>
+	</a>
+	<a
+		href="https://photographyhobby.s3.us-east-2.amazonaws.com/monster.JPG"
+		data-img="https://photographyhobby.s3.us-east-2.amazonaws.com/monster.JPG"
+		data-thumb="https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_monster.JPG"
+		data-height="3456"
+		data-width="5184"
+		data-alt="A picture of a bunch of fireworks that looks like a monster"
+		data-caption="For some reason, this one reminded me of some sort of monster from a child's imagination, with the brightest orbs as eyes and the line of fireworks as a mouth."
+	>
+		<img
+		src="https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_monster.JPG"
+		alt="A picture of a bunch of fireworks that looks like a monster"
+		/>
+	</a>
+	<a
+		href="https://photographyhobby.s3.us-east-2.amazonaws.com/planets.JPG"
+		data-img="https://photographyhobby.s3.us-east-2.amazonaws.com/planets.JPG"
+		data-thumb="https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_planets.JPG"
+		data-height="3456"
+		data-width="3456"
+		data-alt="Picture of fireworks in an arrangement of planets"
+		data-caption="A bunch of circular fireworks that reminded me of planets in a solar system."
+	>
+		<img
+		src="https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_planets.JPG"
+		alt="Picture of fireworks in an arrangement of planets"
+		/>
+	</a>
+	<a
+		href="https://photographyhobby.s3.us-east-2.amazonaws.com/skyflower.JPG"
+		data-img="https://photographyhobby.s3.us-east-2.amazonaws.com/skyflower.JPG"
+		data-thumb="https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_skyflower.JPG"
+		data-height="3456"
+		data-width="5184"
+		data-alt="A firework that looks like a flower"
+		data-caption="This firework looked like a flower to me."
+	>
+		<img
+		src="https://photographyhobby.s3.us-east-2.amazonaws.com/thumbnail_skyflower.JPG"
+		alt="A firework that looks like a flower"
+		/>
+	</a>
+	</div>
+	
 
 <style>
 	p {
