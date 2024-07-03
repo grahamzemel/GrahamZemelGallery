@@ -91,7 +91,7 @@
 		<br>
 		<p>
 			You can find the source code for this project on
-			<a href="https://github.com/grahamzemel/quantum-gallery">GitHub</a>.
+			<a href="https://github.com/grahamzemel/grahamzemelgallery">GitHub</a>.
 		</p>
 	</div>
 	<br />
